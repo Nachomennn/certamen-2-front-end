@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body class="hero">
+    <nav>
+        <ul class="menu">
+            <li><a href="">Inicio</a></li>
+            <li><a href="#Ofertas">Ofertas</a></li>
+            <li><a href="#Galeria">Galeria</a></li>
+            <li><a href="#Formulario">Formulario de pedidos</a></li>
+        </ul>
+    </nav> 
+
+    <header class="Inicio" >
+        <div class="hero-texto">
+            <h1>Pizzas</h1>
+        </div>
+    </header>
+
+    <div class="contenedor">
+        <h2 class="element">Ofertas</h2>
+    </div>
+    
+    <section class="contenedor" id="Ofertas">
+        <div class="contenedor-card">
+            <article class="card">
+                <div class="margen-icono">
+                    <i class="bi bi-caret-down-fill"></i>
+                    <img src="img/pizza-italiana3.jpg" class="imagen-oferta">
+                    <h2>Pizza Italiana</h5>
+                    <h3>$8600</h6>
+                    <p>(Salsa de tomate, queso, jamón, tomate y oregano)</p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="margen-icono">
+                    <i class="bi bi-caret-down-fill"></i>
+                    <img src="img/pizza1.jpg" class="imagen-oferta">
+                    <h2>Pizza Margarita</h5>
+                    <h3>$7300</h6>
+                    <p>(Salsa de tomate, queso mozzarella, albahaca y tomate)</p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="margen-icono">
+                    <i class="bi bi-caret-down-fill"></i>
+                    <img src="img/pizza2.jpg" class="imagen-oferta">
+                    <h2>Pizza Pepperoni</h5>
+                    <h3>$9400</h6>
+                    <p>(Salsa de tomate, queso, jamón y pepperoni)</p>
+                </div>
+            </article>
+        </div>
+    </section>
+    
+    <section class="galeria" id="Galeria">
+        <h2 class="titulo">Más pizzas</h2>
+        <div class="contenedor">
+            
+            <div class="contenedor-galeria">
+                <img src="img/pizza4 churrasca.jpg" alt="">
+                <img src="img/Pizza_vegetariana5.jpg" alt="">
+                <img src="img/pizza-de-pollo6.jpg" alt="">
+                <img src="img/pizza-de-carne7.jpg" alt="">
+                <img src="img/pizza8.jpg" alt="">
+                <img src="img/pizza9.jpg" alt="">
+                <img src="img/pizza10.jpg" alt="">
+                <img src="img/pizza11.jpg" alt="">
+                <img src="img/pizza12.jpg" alt="">
+                <img src="img/pizza13.jpg" alt="">
+                <img src="img/pizza14.jpg" alt="">
+                <img src="img/pizza15.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="Formulario">
+        <div>
+            <h2 class="titulo">Formulario de pedidos</h2>
+            <form class="formulario">
+                <input type="text" name="Nombre" class=" input input-ancho" placeholder="Ingresa Nombre">
+                <input type="text" name="Telefono" class="input input-ancho" placeholder="Ingresa numero Telefonico">
+                <input type="text" name="Email" class="input input-ancho" placeholder="Ingresa Email">
+                <input type="text" name="Dirección" class="input input-ancho" placeholder="Ingresa Dirección">
+                <textarea class="input ancho" placeholder="Escribe productos" cols="30" rows="10"></textarea>
+                <input type="reset" value="Limpiar" class="boton input-ancho">
+                <input type="submit" value="Enviar" class="boton input-ancho">
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-links">
+                    <h4>Link de interes</h4>
+                    <ul>
+                        <li>
+                            <i class="bi bi-google icon-footer" ></i>
+                            <a href="https://www.google.cl/">Google</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-youtube icon-footer"></i>
+                            <a href="https://www.youtube.com/">Youtube</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-twitter-x icon-footer"></i>
+                            <a href="https://twitter.com/">Twitter</a>
+                        </li>
+                    </ul>
+                </div> 
+                <div class="footer-links">
+                    <div class="footer-row">
+                        <h4>Datos de contacto</h4>
+                        <ul>
+                            <li>
+                                <i class="bi bi-person-fill icon-footer"></i>
+                                <a>Nombre: Ignacio Gonzalez Diaz</a>
+                                <a>Rut: 20.501.235-4</a>
+
+                            </li>
+                            <li>
+                                <i class="bi bi-envelope icon-footer"></i>
+                                <a href="mailto:contacto@gmail.com">contacto@gmail.com</a>
+                            </li>
+                            <li>
+                                <i class="bi bi-telephone icon-footer"></i>
+                                <a href="tel:+5694564646"> contacto telefono</a>
+                            </li>
+                            <li>
+                                <i class="bi bi-house icon-footer"></i>
+                                <a>Dirección: Laja</a>
+                            </li>
+                        </ul>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
